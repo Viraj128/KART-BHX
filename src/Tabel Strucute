@@ -1,0 +1,30 @@
+/category
+└── cat01
+    ├── id: string
+    ├── name: string
+    └── active: boolean
+
+
+/sauceGroups
+└── StreetBites
+    └── sauces: array<string>
+        ├── [0]: "Classic"
+        ├── [1]: "Cheese"
+        └── [2]: "Schezwan"
+
+/items
+└── item37
+    ├── active: boolean
+    ├── categoryId: reference (/category/cat03)
+    ├── components: map<number, map>
+    │   ├── 0
+    │   │   ├── itemId: string
+    │   │   └── quantity: number
+    │   └── 1
+    │       ├── itemId: string
+    │       └── quantity: number
+    ├── customizationCategory: string
+    ├── itemName: string
+    ├── price: number
+    ├── requiresCustomization: boolean
+    └── sauces: reference (/sauceGroups/StreetBites)

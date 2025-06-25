@@ -1,0 +1,113 @@
+.banking-page body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+  }
+  
+   .banking-page container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .banking-page h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    font-size:25px;
+  }
+  
+ .banking-page table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .banking-page th, td {
+    border: 1px solid #ddd;
+    padding: 12px 10px;
+    text-align: center;
+  }
+  
+  .banking-table th {
+    background-color: #007bff;
+    font-weight: 600;
+  }
+  
+  .banking-page input[type="number"], input[type="text"] {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .banking-page input[type="number"]:focus, input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  
+  .banking-page button:hover {
+    background: #0056b3;
+  }
+  
+  .banking-page amount-summary {
+    text-align: right;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  
+  .banking-page amount-summary div {
+    margin-bottom: 8px;
+  }
+  .banking-page container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .banking-page input[type="text"] {
+    padding: 5px;
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  .banking-page button {
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+  }
+  
+  .banking-page button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  .banking-page {
+    margin-top: 20px;
+  }
+  
+  .banking-page label {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .banking-page h3 {
+    margin-bottom: 10px;
+  }
+  .banking-page button-spacing {
+    margin-right: 10px;
+  }
+  
